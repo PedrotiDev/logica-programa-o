@@ -1,0 +1,22 @@
+algoritmo "calculo de parcelas"
+
+var
+   emprestimo, parcela, juros, total: Real
+
+inicio
+   Escreva ("Qual o valor do emprestimo")
+   leia (emprestimo)
+
+   juros <- (emprestimo * 20) / 100
+   Escreval ("Os juros será ", juros)
+
+   total <- juros + emprestimo
+   Escreval ("Total será ", total)
+
+   Escreva ("Dividido em quantas?")
+   leia (parcela)
+
+   parcela <- total / parcela
+   Escreva ("O valor da parcela será ", parcela)
+
+fimalgoritmo
